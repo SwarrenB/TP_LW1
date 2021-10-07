@@ -27,8 +27,8 @@ Windows compiler:
 
 Команды компиляции:
 ```
-g++ -fpic -shared lib/SquareFuncLib.cpp -o SquareFuncLib.dll
-g++ main.cpp SquareFuncLib.dll
+g++ -fpic -shared lib/DistanceBetweenPointsLib.cpp -o DistanceBetweenPointsLib.dll
+g++ main.cpp DistanceBetweenPointsLib.dll
 ```
 
 Для запуска проекта запустить исполняемый файл **a.exe**
