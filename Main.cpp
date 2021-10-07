@@ -26,7 +26,7 @@ int main()
     vector<int> y;
     
     double L = INT_MAX, L_fact;
-    cout << "How many points does your graph contain? -> "
+    cout << "How many points does your graph contain? -> ";
         int number = input_number(cin);
     for (int i = 1; i <= number; i++)
     {
