@@ -25,7 +25,7 @@ Windows compiler:
 5. Добавить папку **bin** Mingw-w64 в **PATH** в переменные среды
 
 
-run:
+Команды компиляции:
 ```
 g++ -fpic -shared lib/SquareFuncLib.cpp -o SquareFuncLib.dll
 g++ main.cpp SquareFuncLib.dll
