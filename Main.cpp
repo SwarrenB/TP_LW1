@@ -21,7 +21,7 @@ int input_number(std::istream& input)
 
 int main()
 {
-    cout << "***Calculating distance between two points***" << std::endl;
+    cout << "***Calculating minimal distance between points***" << std::endl;
     vector<int> x;
     vector<int> y;
     
