@@ -1,14 +1,14 @@
 #define LIB_EXPORT
 #include "DistanceBetweenPointsLib.h"
 #include <string>
-#include <cmath>
+#include <math.h>
 #include <iostream>
+using namespace std;
 
-double Calculation(double x1, double x2, double y1, double y2)
+double Calculation(int x1, int y1, int x2, int y2)
 {
-    std::cout << "Calculating the distance...\n";
-    double x = pow(x1 - x2, 2);
-    double y = pow(y1 - y2 , 2);
+    double x = pow(x2 - x1, 2.0);
+    double y = pow(y2 - y1, 2.0);
     return sqrt(x + y);
     
 }

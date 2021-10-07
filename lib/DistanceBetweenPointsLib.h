@@ -9,5 +9,5 @@
 
 extern "C++"
 {
-    LIB_API double Calculation(double x1, double x2, double y1, double y2);
+    LIB_API double Calculation(int x1, int x2, int y1, int y2);
 }
