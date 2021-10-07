@@ -1,3 +1,3 @@
-g++ -shared lib/SquareFuncLib.cpp -fpic  -o SquareFuncLib.dll
-g++ main.cpp SquareFuncLib.dll
+g++ -shared lib/DistancsBetweenPointsLib.cpp -fpic  -o DistancsBetweenPointsLib.dll
+g++ main.cpp DistancsBetweenPointsLib.dll
 echo Finish
